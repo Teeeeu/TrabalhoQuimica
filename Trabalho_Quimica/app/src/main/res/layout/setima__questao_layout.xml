@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAzul"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sétima Questão:"
+            android:textColor="@color/colorBranco"
+            android:textSize="50sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Todas sao carboidratos, menos:"
+            android:textColor="@color/colorBranco"
+            android:textSize="30sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnRespostaErrada2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="A) Maltose.">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btnRespostaErrada1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="B) Quitina.">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnRespostaErrada3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="C) Celulose.">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnRespostaCerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="D) Lipídeo.">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

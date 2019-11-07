@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAzul"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decima Questão:"
+            android:textColor="@color/colorBranco"
+            android:textSize="50sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="O que são dissacarídeos e polissacarídeos, respectivamente:"
+            android:textColor="@color/colorBranco"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnRespostaCerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="A) União de dois monossacarídeos e união de mais de 20 monossacarídeos."
+            >
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btnRespostaErrada1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="B) União de mais de 20 monossacarídeos e união de dois monossacarídeos.">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnRespostaErrada3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="C) Solvente aploar e solvente polar.">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnRespostaErrada2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="D) Solvente polar e solvente apolar.">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

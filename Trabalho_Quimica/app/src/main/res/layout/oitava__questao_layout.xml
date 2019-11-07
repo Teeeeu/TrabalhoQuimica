@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAzul"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oitava Questão:"
+            android:textColor="@color/colorBranco"
+            android:textSize="50sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pergunta Bônus (+2 pontos)\nConhecimento geral de Química"
+            android:textColor="@color/colorBranco"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="O que são resinas:"
+            android:textColor="@color/colorBranco"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/btnRespostaErrada2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="A) Materiais solúveis em água.">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btnRespostaCerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="B) Polímeros de alto peso molecular.">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnRespostaErrada3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="C) Ácidos graxos.">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnRespostaErrada1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="D) Moléculas pequenas de aldeído.">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
