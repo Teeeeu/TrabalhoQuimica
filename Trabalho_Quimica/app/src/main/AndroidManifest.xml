@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.trabalho_quimica">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Desafio_Activity"></activity>
+        <activity android:name=".Nona_Questao_Activity" />
+        <activity android:name=".Decima_Questao_Activity" />
+        <activity android:name=".Oitava_Questao_Activity" />
+        <activity android:name=".Setima_Questao_Activity" />
+        <activity android:name=".Sexta_Questao_Activity" />
+        <activity android:name=".Quinta_Questao_Activity" />
+        <activity android:name=".Quarta_Questao_Activity" />
+        <activity android:name=".Terceira_Questao_Activity" />
+        <activity
+            android:name=".Segunda_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Primeira_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Temasembarra">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
