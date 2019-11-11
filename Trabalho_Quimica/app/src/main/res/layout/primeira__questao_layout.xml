@@ -35,8 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@color/colorPrimary"
-            android:text="A) Cn(H2O)n"
-            >
+            android:text="A) Cn(H2O)n">
 
         </Button>
 
@@ -46,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="#EB0A0A"
+            android:background="@color/colorPrimary"
             android:text="B) CO5">
 
         </Button>

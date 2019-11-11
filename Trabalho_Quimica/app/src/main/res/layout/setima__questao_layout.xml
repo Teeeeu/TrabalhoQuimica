@@ -30,7 +30,7 @@
         </TextView>
 
         <Button
-            android:id="@+id/btnRespostaErrada2"
+            android:id="@+id/btnRespostaErrada20"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -41,7 +41,7 @@
 
 
         <Button
-            android:id="@+id/btnRespostaErrada1"
+            android:id="@+id/btnRespostaErrada21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -51,7 +51,7 @@
         </Button>
 
         <Button
-            android:id="@+id/btnRespostaErrada3"
+            android:id="@+id/btnRespostaErrada22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -61,7 +61,7 @@
         </Button>
 
         <Button
-            android:id="@+id/btnRespostaCerta"
+            android:id="@+id/btnRespostaCerta7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"

@@ -9,15 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Desafio_Activity"></activity>
-        <activity android:name=".Nona_Questao_Activity" />
-        <activity android:name=".Decima_Questao_Activity" />
-        <activity android:name=".Oitava_Questao_Activity" />
-        <activity android:name=".Setima_Questao_Activity" />
-        <activity android:name=".Sexta_Questao_Activity" />
-        <activity android:name=".Quinta_Questao_Activity" />
-        <activity android:name=".Quarta_Questao_Activity" />
-        <activity android:name=".Terceira_Questao_Activity" />
+        <activity android:name=".Voce_Acertou_Activity"
+            android:theme="@style/Temasembarra"/>
+        <activity
+            android:name=".Final_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Desafio_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Nona_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Decima_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Oitava_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Setima_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Sexta_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Quinta_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Quarta_Questao_Activity"
+            android:theme="@style/Temasembarra" />
+        <activity
+            android:name=".Terceira_Questao_Activity"
+            android:theme="@style/Temasembarra" />
         <activity
             android:name=".Segunda_Questao_Activity"
             android:theme="@style/Temasembarra" />

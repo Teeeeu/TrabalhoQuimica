@@ -30,7 +30,22 @@ public class Primeira_Questao_Activity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"teste",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Reposta errada, tente novamente",Toast.LENGTH_LONG).show();
+            }
+        });
+
+        button2 = findViewById(R.id.btnRespostaErrada2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Reposta errada, tente novamente",Toast.LENGTH_LONG).show();
+            }
+        });
+        button3 = findViewById(R.id.btnRespostaErrada3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Reposta errada, tente novamente", Toast.LENGTH_LONG).show();
             }
         });
 
