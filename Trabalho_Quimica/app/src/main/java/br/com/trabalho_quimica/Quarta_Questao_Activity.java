@@ -16,7 +16,7 @@ public class Quarta_Questao_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quarta_questao_layout);
-        button12 = findViewById(R.id.btnRespostaErrada10);
+        button12 = findViewById(R.id.btnRespostaCerta4);
         button12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
